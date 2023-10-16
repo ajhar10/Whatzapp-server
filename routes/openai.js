@@ -16,5 +16,7 @@ router.post('/text',async(req,res)=>{
 
     }
 })
-
+router.get('/text',async(req,res)=>{
+  console.log("Success")
+})
 export default router;
